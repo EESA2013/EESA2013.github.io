@@ -3797,6 +3797,32 @@ fieldset:disabled .btn {
   cursor: default;
 }
 
+.nav-link-icon {
+  padding: 0;
+  margin: 0;
+  text-decoration: none; /* Remove underline */
+}
+
+.nav-link-icon i {
+  font-size: 1.3rem; /* Adjust icon size as needed */
+  color: #fff; /* Adjust color as needed */
+}
+
+/* Ensure the icons have no default margin */
+.bi-facebook,
+.bi-instagram {
+  margin: 0;
+}
+
+/* Add specific margin to the second icon */
+.nav-link-icon + .nav-link-icon {
+  margin-left: 0.5rem; /* Adjust spacing as needed */
+}
+
+/* Optional: Add hover effects */
+.nav-link-icon:hover i {
+  color: #8b9dc3; /* Change color on hover */
+}
 .nav-tabs {
   --bs-nav-tabs-border-width: 1px;
   --bs-nav-tabs-border-color: #dee2e6;
@@ -3901,7 +3927,7 @@ fieldset:disabled .btn {
   --bs-navbar-toggler-padding-x: 0.75rem;
   --bs-navbar-toggler-font-size: 1.25rem;
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-  --bs-navbar-toggler-border-color: rgba(0, 0, 0, 0.1);
+  --bs-navbar-toggler-border-color: #8e5a8b;
   --bs-navbar-toggler-border-radius: 0.375rem;
   --bs-navbar-toggler-focus-width: 0.25rem;
   --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
@@ -11267,7 +11293,7 @@ section {
 #mainNav .navbar-toggler {
   font-size: 0.875rem;
   padding: 0.75rem 1rem;
-  color: #212529;
+  color: #8e5a8b;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: #cccccc;
