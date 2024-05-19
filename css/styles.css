@@ -11253,8 +11253,6 @@ section {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   background-color: #662c6c;
 }
 #mainNav .navbar-brand {
@@ -11416,7 +11414,8 @@ section.cta:before {
     ),
     url("../assets/img/bg-masthead.jpg");
 
-  padding-top: 13.5rem;
+  padding-top: 6rem;
+  margin-top: 3.5rem;
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
@@ -11438,6 +11437,13 @@ background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66
   }
   .features-device-mockup .device-wrapper {
     max-width: 12.5rem;
+  }
+  .masthead {
+    margin-top: 0;
+    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    background-position: initial;
   }
 }
 @media (min-width: 768px) {
@@ -11504,17 +11510,6 @@ background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66
     background-size: cover;
     padding-top: 9.5rem;
     background-position: initial;
-    /*
-   background-position: center;
-  background-size: cover;
-  background-position: center;
-  padding-top: 9.5rem;
-  padding-bottom: 5rem; 
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-size: cover; */
-    /* background-color: #f8f9fa;
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg"); */
   }
 }
 
