@@ -11435,8 +11435,8 @@ section.cta:before {
   background-color: #f8f9fa;
   background: linear-gradient(
       to bottom,
-      rgba(92, 77, 66, 0.8) 0%,
-      rgba(92, 77, 66, 0.8) 100%
+      rgba(180, 160, 140, 0.6) 0%,
+      rgba(180, 160, 140, 0.6) 100%
     ),
     url("../assets/img/bg-masthead.jpg");
 
