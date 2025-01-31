@@ -11440,12 +11440,14 @@ section.cta:before {
     ),
     url("../assets/img/bg-masthead.jpg");
 
-  padding-top: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   margin-top: 3.5rem;
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
   background-repeat: no-repeat;
+  text-align: center;
   /*
     background-position: center;
 padding-bottom: 5rem; 
